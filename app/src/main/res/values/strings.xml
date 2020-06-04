@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MA02_20161016</string>
+    <string name="api_url">https://openapi.naver.com/v1/search/movie.xml?display=10&amp;start=1&amp;query=</string>
+    <string name="client_id">U_d_cLPeEGIt7R7BHi5D</string>
+    <string name="client_secret">GopvPjL8Cn</string>
+    <string name="weather_api_url">http://newsky2.kma.go.kr/service/SecndSrtpdFrcstInfoService2/ForecastGrib</string>
+</resources>

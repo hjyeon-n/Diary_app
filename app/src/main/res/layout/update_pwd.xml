@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tvText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="암호 입력" />
+
+    <EditText
+        android:id="@+id/originalPwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/tvText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="새 암호" />
+
+    <EditText
+        android:id="@+id/newPwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/tvText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="암호 재입력" />
+
+    <EditText
+        android:id="@+id/checkPwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+</LinearLayout>

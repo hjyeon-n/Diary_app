@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/textcolor"
+        android:title="글씨색 지정" />
+    <item
+        android:id="@+id/texttype"
+        android:title="글씨 타입" />
+    <item
+        android:id="@+id/now"
+        android:title="현재 시간 불러오기" />
+</menu>

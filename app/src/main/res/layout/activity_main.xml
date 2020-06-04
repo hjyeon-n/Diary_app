@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+    <Button
+        android:id="@+id/btn_all"
+        style="@android:style/Widget.Material.Light.Button.Borderless.Small"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btn_collect"
+        android:layout_alignLeft="@+id/btn_collect"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="72dp"
+        android:onClick="onClick"
+        android:text="전체보기" />
+
+    <Button
+        android:id="@+id/btn_new"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="135dp"
+        android:onClick="onClick"
+        android:text="일기 쓰기" />
+
+    <Button
+        android:id="@+id/btn_collect"
+        style="@android:style/Widget.Material.Light.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btn_new"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="268dp"
+        android:onClick="onClick"
+        android:text="월별로 보기" />
+
+    <Button
+        android:id="@+id/btn_search"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_all"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="205dp"
+        android:onClick="onClick"
+        android:text="검색하기" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="24dp"
+        android:text="하루일기"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_all"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="242dp"
+        android:layout_marginRight="242dp"
+        android:layout_marginBottom="47dp"
+        app:srcCompat="@mipmap/edit" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="255dp"
+        android:layout_height="163dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="53dp"
+        android:layout_marginRight="53dp"
+        android:layout_marginBottom="18dp"
+        app:srcCompat="@mipmap/diary" />
+
+</RelativeLayout>

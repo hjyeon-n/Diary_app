@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="feeling">
+        <item>0%</item>
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+
+    <string-array name="weather">
+        <item>직접 선택</item>
+        <item>날씨 받아오기</item>
+    </string-array>
+
+    <string-array name="location">
+        <item>직접 선택</item>
+        <item>위치 받아오기</item>
+    </string-array>
+
+    <string-array name="color">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Black</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Normal</item>
+        <item>Italic</item>
+        <item>Bold</item>
+    </string-array>
+</resources>
