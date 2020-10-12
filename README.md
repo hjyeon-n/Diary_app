@@ -29,9 +29,10 @@ Some services may not work because it is an outdated version.
    - 날짜는 DatePicker를 통해 설정할 수 있습니다. 
 
    - **오늘의 날씨** 항목을 더블 클릭하면 Dialog로 직접 입력 / 날씨 불러오기를 선택할 수 있습니다. 
+      <br>
      ✅ 날씨 불러오기의 경우, 기상청 API를 통해 현재 기온 값을 가져옵니다.
 
-   - **오늘의 위치**를 더블 클릭하면 Dialog로 직접 입력 / 위치 불러오기를 선택할 수 있습니다. 
+   - **오늘의 위치**를 더블 클릭하면 Dialog로 직접 입력 / 위치 불러오기를 선택할 수 있습니다. <br>
      ✅ 위치 불러오기의 경우, 지오코딩을 통해 현재 위치 값을 가져옵니다.
 
    - **오늘의 영화** 입력창을 더블 클릭하면 네이버 영화 API를 통해 영화를 검색할 수 있습니다. 
@@ -47,5 +48,5 @@ Some services may not work because it is an outdated version.
    ![image](https://user-images.githubusercontent.com/62419307/93487471-463f5400-f940-11ea-91d5-4b209389216c.png)
 
    - 일기는 월별로 모아보거나 달력으로 모아서 볼 수 있습니다.
-   - 일기 검색이 가능합니다.
+   - 일기 검색이 가능합니다.<br>
      ✅ Filter 인터페이스를 구현하여 입력창에 값이 입력될 때마다 해당 입력 값이 포함된 결과 값만 리스트 뷰에 필터링이 가능합니다.
